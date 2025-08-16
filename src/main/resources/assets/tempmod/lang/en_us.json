@@ -1,0 +1,13 @@
+{
+  "itemGroup.tempmod": "Example Mod Tab",
+  "block.tempmod.example_block": "Example Block",
+  "item.tempmod.example_item": "Example Item",
+
+  "tempmod.configuration.title": "Tempmod Configs",
+  "tempmod.configuration.section.tempmod.common.toml": "Tempmod Configs",
+  "tempmod.configuration.section.tempmod.common.toml.title": "Tempmod Configs",
+  "tempmod.configuration.items": "Item List",
+  "tempmod.configuration.logDirtBlock": "Log Dirt Block",
+  "tempmod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "tempmod.configuration.magicNumber": "Magic Number"
+}
