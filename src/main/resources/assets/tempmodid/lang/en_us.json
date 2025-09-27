@@ -1,4 +1,6 @@
 {
   "item.tempmodid.bismuth": "Bismuth",
-  "item.tempmodid.raw_bismuth": "Raw Bismuth"
+  "item.tempmodid.raw_bismuth": "Raw Bismuth",
+  "block.tempmodid.bismuth_block": "Block of Bismuth",
+  "block.tempmodid.bismuth_ore": "Bismuth Ore"
 }

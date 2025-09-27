@@ -1,5 +1,6 @@
 package com.temp.tempmod;
 
+import com.temp.tempmod.blocks.ModBlocks;
 import com.temp.tempmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -52,6 +53,7 @@ public class Tempmod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -67,6 +69,11 @@ public class Tempmod {
         if (event.getTabKey()==CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.BISMUTH);
             event.accept(ModItems.RAW_BISMUTH);
+        }
+
+        if( event.getTabKey()==CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.BISMUTH_BLOCK);
+            event.accept(ModBlocks.BISMUTH_ORE);
         }
     }
 
